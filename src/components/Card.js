@@ -36,12 +36,6 @@ export default function Card({
 					<Link to={linkedinLink}>
 						<img src={linkedIn} alt="" />
 					</Link>
-					<Link to={instagramLink}>
-						<img src={instagram} alt="" />
-					</Link>
-					<Link to={facebookLink}>
-						<img src={facebook} alt="" />
-					</Link>
 					<Link to={emailId}>
 						<img src={mail} alt="" />
 					</Link>

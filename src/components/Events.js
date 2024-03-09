@@ -41,35 +41,37 @@ const Events = () => {
         <div className="space-y-8">
           {/* Heading 1 */}
           <p className="text-[40px] lg:text-[65px] pb-8 lg:text-left text-center font-[500]">
-            UPCOMING EVENTS
+            Upcoming Events
           </p>
 
           {/* First Row */}
-          <div className="flex flex-col lg:flex-row font-[400]">
+          <div className=" flex flex-col lg:flex-row font-[400]">
             <div className="lg:w-1/2 mx-auto">
               <img src={event1} alt="anveshan" className="w-full h-auto" />
             </div>
             <div className="py-6 lg:py-0 md:mx-24 lg:w-1/2 text-[20px] md:text-[30px] lg:text-[35px] text-center space-y-4 lg:my-auto mx-auto">
-              <p>Anveshan'21 : Technical Event for undergraduate students</p>
-              <p>Date - 21 Oct 2021</p>
+              <p>Anveshan'24 : Technical Event for undergraduate students</p>
+              <p>Date - 12 April 2024</p>
             </div>
           </div>
 
-          {/* Second Row */}
-          <div className="flex flex-col lg:flex-row font-[400]">
-            <div className="order-2 lg:order-1 py-6 lg:py-0 md:mx-24 lg:w-1/2 text-[20px] md:text-[30px] lg:text-[32px] text-center space-y-4 lg:my-auto mx-auto">
-              <p>Maitri Shield Tournament</p>
-              <p>Date - 15 Sep 2021</p>
-            </div>
-            <div className="order-1 lg:order-2 lg:w-1/2 mx-auto">
-              <img src={event2} alt="maitri-shield" className="w-full h-auto" />
-            </div>
-          </div>
+          
 
           {/* Heading 2 */}
           <p className="text-[40px] lg:text-[65px] pb-8 lg:text-left text-center font-[500]">
             PAST EVENTS
           </p>
+
+          {/* First Row */}
+          <div className="flex flex-col lg:flex-row font-[400]">
+            <div className="order-2 lg:order-1 py-6 lg:py-0 md:mx-24 lg:w-1/2 text-[20px] md:text-[30px] lg:text-[32px] text-center space-y-4 lg:my-auto mx-auto">
+              <p>Maitri Shield Tournament</p>
+              <p>Date - 5 March 2024</p>
+            </div>
+            <div className="order-1 lg:order-2 lg:w-1/2 mx-auto">
+              <img src={event2} alt="maitri-shield" className="w-full h-auto" />
+            </div>
+          </div>
 
           {/* Third row */}
           <div className="flex flex-col lg:flex-row font-[400]">
@@ -77,16 +79,16 @@ const Events = () => {
               <img src={event3} alt="teachers-day" className="w-full h-auto" />
             </div>
             <div className="py-6 lg:py-0 md:mx-24 lg:w-1/2 text-[20px] md:text-[30px] lg:text-[35px] text-center space-y-4 lg:my-auto mx-auto">
-              <p>Teacher's Day 2019</p>
-              <p>Date - 5 Sep 2019</p>
+              <p>Teacher's Day 2023</p>
+              <p>Date - 5 Sep 2023</p>
             </div>
           </div>
 
           {/* Fourth Day */}
           <div className="flex flex-col lg:flex-row font-[400]">
             <div className="order-2 lg:order-1 py-6 lg:py-0 md:mx-24 lg:w-1/2 text-[20px] md:text-[30px] lg:text-[32px] text-center space-y-4 lg:my-auto mx-auto">
-              <p>Nabarun'2019 - Inter-year sports torunament</p>
-              <p>Date - 14 Aug 2019</p>
+              <p>Career Talks - Final years career guidance.</p>
+              <p>Date - 7 Feb 2024</p>
             </div>
             <div className="order-1 lg:order-2 lg:w-1/2 mx-auto">
               <img src={event4} alt="nabarun" className="w-full h-auto" />
