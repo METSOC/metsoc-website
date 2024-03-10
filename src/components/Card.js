@@ -35,8 +35,8 @@ export default function Card({
 					</p>
 				</div>
 				<div className="flex justify-center gap-7 p-6 pt-2">
-					<Link to={linkedinLink}>
-						<img src={linkedIn} alt="" />
+					<Link to={linkedinLink} target="_blank">
+						<img src={linkedIn} alt=""  />
 					</Link>
 					<button onClick={()=>emailTo(emailId)}>
 						<img src={mail} alt="" />

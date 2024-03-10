@@ -10,8 +10,8 @@ const Teams = () => {
 	const professor = [
 		{
 			imgUrl: "https://iitbhu.ac.in/contents/met/img/people/met_faculty_joysurya.jpg",
-			name: "Joy Surya Basu",
-			designation: "Proffesor In-Charge",
+			name: "Joysurya Basu",
+			designation: "Professor Incharge",
 			linkedinLink: "https://www.linkedin.com/in/joysurya-basu-486a3399/",
 			emailId: "jbasu.met@iitbhu.ac.in",
 		},
