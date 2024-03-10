@@ -64,11 +64,6 @@ const Navbar = () => {
               </a>
             </li>
             <li >
-              <a href="/updates" className="py-7 px-3 inline-block">
-                Updates
-              </a>
-            </li>
-            <li >
               <a href="/gallery" className="py-7 px-3 inline-block">
                 Gallery
               </a>
@@ -76,6 +71,11 @@ const Navbar = () => {
             <li >
               <a href="/teams" className="py-7 px-3 inline-block">
                 Teams
+              </a>
+            </li>
+            <li >
+              <a href="/anveshan" className="py-7 px-3 inline-block">
+                Anveshan
               </a>
             </li>
 
