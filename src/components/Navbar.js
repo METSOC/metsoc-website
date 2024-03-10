@@ -33,7 +33,7 @@ const Navbar = () => {
             </li>
             <li>
               <a href="/teams" className="py-7  hover:text-berry active:text-berry font-medium tracking-wider px-3 inline-block">
-                Teams
+                Team
               </a>
             </li>
             <li>
@@ -70,7 +70,7 @@ const Navbar = () => {
             </li>
             <li >
               <a href="/teams" className="py-7 px-3 inline-block">
-                Teams
+                Team
               </a>
             </li>
             <li >

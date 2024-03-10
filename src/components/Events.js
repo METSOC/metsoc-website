@@ -91,7 +91,7 @@ const Events = () => {
               </div>
             </div>
             <div className="order-1 lg:order-2 lg:w-1/2 mx-auto">
-              <img src={"https://drive.google.com/thumbnail?id=1H8bEMbzETygxMpIh5I0XzOuoAjauW44M&sz=w1000"} alt="nabarun" className="w-full h-auto" />
+              <img src={"https://drive.google.com/thumbnail?id=1H8bEMbzETygxMpIh5I0XzOuoAjauW44M&sz=w1000"} alt="career" className="w-full h-auto" />
             </div>
           </div>
 
@@ -108,6 +108,40 @@ const Events = () => {
               
               <div  className="text-white  text-[20px] md:text-[30px] lg:text-[25px] text-center space-y-4 lg:my-auto mx-auto">
               <p> Oh seriously you need description for this? </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Fourth Row */}
+          <div className="rounded-xl p-10 btn flex flex-col lg:flex-row font-[400]">
+            <div className=" order-2 lg:order-1 py-6 lg:py-0 md:mx-24 lg:w-1/2 text-[20px] md:text-[30px] lg:text-[32px] text-center space-y-4 lg:my-auto mx-auto">
+              <div className="text-white font-bold" >
+              <p>Metals and Material Quiz</p>
+              <p>Date - 26 August 2023</p>
+              </div>
+              <div className="text-white  text-[20px] md:text-[30px] lg:text-[25px]" >
+              <p>IIM Varanasi chapter organizes regionals for the Bramha Prakash Memorial Metallurgy Quiz held in Kalapakkam.</p>
+
+              </div>
+            </div>
+            <div className="order-1 lg:order-2 lg:w-1/2 mx-auto">
+              <img src={"https://drive.google.com/thumbnail?id=1KRL4lrm3myX1VPsC3jghVO2kUCfIGMCz&sz=w1000"} alt="bpmq" className="w-full h-auto" />
+            </div>
+          </div>
+
+          {/* Fifth Row */}
+          <div className="rounded-xl p-10 btn flex flex-col lg:flex-row font-[400]">
+            <div className="lg:w-1/2 mx-auto">
+              <img src={"https://drive.google.com/thumbnail?id=1TihAKDUkPldFGjtEqtqJhbkZM7jQK4OV&sz=w1000"} alt="teachers-day" className="w-full h-auto" />
+            </div>
+            <div className="py-6 lg:py-0 md:mx-24 lg:w-1/2 text-[20px] md:text-[30px] lg:text-[35px] text-center space-y-4 lg:my-auto mx-auto">
+              <div className="text-white font-bold">
+              <p>Freshers Orientation</p>
+              <p>Date - 9 August 2023</p>
+              </div>
+              
+              <div  className="text-white  text-[20px] md:text-[30px] lg:text-[25px] text-center space-y-4 lg:my-auto mx-auto">
+              <p>Introduction session for new entrants about METSOC and its events.</p>
               </div>
             </div>
           </div>
