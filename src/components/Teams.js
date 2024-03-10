@@ -9,136 +9,38 @@ import Card from "./Card";
 const Teams = () => {
 	const professor = [
 		{
-			imgUrl: "/assets/photo.jpeg",
+			imgUrl: "https://iitbhu.ac.in/contents/met/img/people/met_faculty_joysurya.jpg",
 			name: "Joy Surya Basu",
 			designation: "Proffesor In-Charge",
-			linkedinLink: "https://www.linkedin.com/in/mandeep-patwa-21267b222/",
-			instagramLink: "https://www.instagram.com/patwamandeep98/saved/",
-			facebookLink: "https://www.facebook.com/profile.php?id=100073549391295",
-			emailId: "mandeep.patwa.met21@itbhu.ac.in",
+			linkedinLink: "https://www.linkedin.com/in/joysurya-basu-486a3399/",
+			emailId: "jbasu.met@iitbhu.ac.in",
 		},
-		{
-			imgUrl: "/assets/photo.jpeg",
-			name: "Mandeep Patwa",
-			designation: "Tech Team Member",
-			linkedinLink: "https://www.linkedin.com/in/mandeep-patwa-21267b222/",
-			instagramLink: "https://www.instagram.com/patwamandeep98/saved/",
-			facebookLink: "https://www.facebook.com/profile.php?id=100073549391295",
-			emailId: "mandeep.patwa.met21@itbhu.ac.in",
-		},
-		{
-			imgUrl: "/assets/photo.jpeg",
-			name: "Mandeep Patwa",
-			designation: "Tech Team Member",
-			linkedinLink: "https://www.linkedin.com/in/mandeep-patwa-21267b222/",
-			instagramLink: "https://www.instagram.com/patwamandeep98/saved/",
-			facebookLink: "https://www.facebook.com/profile.php?id=100073549391295",
-			emailId: "mandeep.patwa.met21@itbhu.ac.in",
-		},
-		
 	];
 
 	const heads = [{
-		imgUrl: "/assets/photo.jpeg",
-		name: "Mandeep Patwa",
-		designation: "Tech Team Member",
-		linkedinLink: "https://www.linkedin.com/in/mandeep-patwa-21267b222/",
-		instagramLink: "https://www.instagram.com/patwamandeep98/saved/",
-		facebookLink: "https://www.facebook.com/profile.php?id=100073549391295",
-		emailId: "mandeep.patwa.met21@itbhu.ac.in",
+		imgUrl: "https://media.licdn.com/dms/image/C4D03AQG1t-Y7k0Qc8w/profile-displayphoto-shrink_800_800/0/1657519247079?e=1715817600&v=beta&t=RVOve-mKNY-qTdNxrIw4R24tt-OkR85CJnxxatmPJPM",
+		name: "Kshitij Kumar Dubey",
+		designation: "Co-Convener",
+		linkedinLink: "https://www.linkedin.com/in/kshitij-dubey/",
+		emailId: "kshitijkumar.dubey.met20@itbhu.ac.in",
 	},
 	{
-		imgUrl: "/assets/photo.jpeg",
-		name: "Mandeep Patwa",
-		designation: "Tech Team Member",
-		linkedinLink: "https://www.linkedin.com/in/mandeep-patwa-21267b222/",
-		instagramLink: "https://www.instagram.com/patwamandeep98/saved/",
-		facebookLink: "https://www.facebook.com/profile.php?id=100073549391295",
-		emailId: "mandeep.patwa.met21@itbhu.ac.in",
+		imgUrl: "",
+		name: "Rajdeep Chatterjee",
+		designation: "Convener",
+		linkedinLink: "https://www.linkedin.com/in/rajdeep-chatterjee-854a9721b/",
+		emailId: "rajdeep.chatterjee.met20@itbhu.ac.in",
 	},
 	{
-		imgUrl: "/assets/photo.jpeg",
-		name: "Mandeep Patwa",
-		designation: "Tech Team Member",
-		linkedinLink: "https://www.linkedin.com/in/mandeep-patwa-21267b222/",
-		instagramLink: "https://www.instagram.com/patwamandeep98/saved/",
-		facebookLink: "https://www.facebook.com/profile.php?id=100073549391295",
-		emailId: "mandeep.patwa.met21@itbhu.ac.in",
+		imgUrl: "https://media.licdn.com/dms/image/D4D03AQG82oG6jjBlCw/profile-displayphoto-shrink_200_200/0/1676396068406?e=1715817600&v=beta&t=FUJscs90nGU9YldjwH_Aao5KDWbx3L_HxUVtiVn7ElM",
+		name: "Ayush Bharsakle",
+		designation: "Co-Convener",
+		linkedinLink: "https://www.linkedin.com/in/ayush-bharsakle-4b4643200/",
+		emailId: "ayush.abharsakle.met20@itbhu.ac.in",
 	},
 	];
-	const core  = [
-		{
-			imgUrl: "/assets/photo.jpeg",
-			name: "Mandeep Patwa",
-			designation: "Tech Team Member",
-			linkedinLink: "https://www.linkedin.com/in/mandeep-patwa-21267b222/",
-			instagramLink: "https://www.instagram.com/patwamandeep98/saved/",
-			facebookLink: "https://www.facebook.com/profile.php?id=100073549391295",
-			emailId: "mandeep.patwa.met21@itbhu.ac.in",
-		},
-		{
-			imgUrl: "/assets/photo.jpeg",
-			name: "Mandeep Patwa",
-			designation: "Tech Team Member",
-			linkedinLink: "https://www.linkedin.com/in/mandeep-patwa-21267b222/",
-			instagramLink: "https://www.instagram.com/patwamandeep98/saved/",
-			facebookLink: "https://www.facebook.com/profile.php?id=100073549391295",
-			emailId: "mandeep.patwa.met21@itbhu.ac.in",
-		},
-		{
-			imgUrl: "/assets/photo.jpeg",
-			name: "Mandeep Patwa",
-			designation: "Tech Team Member",
-			linkedinLink: "https://www.linkedin.com/in/mandeep-patwa-21267b222/",
-			instagramLink: "https://www.instagram.com/patwamandeep98/saved/",
-			facebookLink: "https://www.facebook.com/profile.php?id=100073549391295",
-			emailId: "mandeep.patwa.met21@itbhu.ac.in",
-		},
-		{
-			imgUrl: "/assets/photo.jpeg",
-			name: "Mandeep Patwa",
-			designation: "Tech Team Member",
-			linkedinLink: "https://www.linkedin.com/in/mandeep-patwa-21267b222/",
-			instagramLink: "https://www.instagram.com/patwamandeep98/saved/",
-			facebookLink: "https://www.facebook.com/profile.php?id=100073549391295",
-			emailId: "mandeep.patwa.met21@itbhu.ac.in",
-		},
-		{
-			imgUrl: "/assets/photo.jpeg",
-			name: "Mandeep Patwa",
-			designation: "Tech Team Member",
-			linkedinLink: "https://www.linkedin.com/in/mandeep-patwa-21267b222/",
-			instagramLink: "https://www.instagram.com/patwamandeep98/saved/",
-			facebookLink: "https://www.facebook.com/profile.php?id=100073549391295",
-			emailId: "mandeep.patwa.met21@itbhu.ac.in",
-		},
-		{
-			imgUrl: "/assets/photo.jpeg",
-			name: "Mandeep Patwa",
-			designation: "Tech Team Member",
-			linkedinLink: "https://www.linkedin.com/in/mandeep-patwa-21267b222/",
-			instagramLink: "https://www.instagram.com/patwamandeep98/saved/",
-			facebookLink: "https://www.facebook.com/profile.php?id=100073549391295",
-			emailId: "mandeep.patwa.met21@itbhu.ac.in",
-		},
-		{
-			imgUrl: "/assets/photo.jpeg",
-			name: "Mandeep Patwa",
-			designation: "Tech Team Member",
-			linkedinLink: "https://www.linkedin.com/in/mandeep-patwa-21267b222/",
-			instagramLink: "https://www.instagram.com/patwamandeep98/saved/",
-			facebookLink: "https://www.facebook.com/profile.php?id=100073549391295",
-			emailId: "mandeep.patwa.met21@itbhu.ac.in",
-		},
-		{
-			imgUrl: "/assets/photo.jpeg",
-			name: "Mandeep Patwa",
-			designation: "Tech Team Member",
-			linkedinLink: "https://www.linkedin.com/in/mandeep-patwa-21267b222/",
-			instagramLink: "https://www.instagram.com/patwamandeep98/saved/",
-			facebookLink: "https://www.facebook.com/profile.php?id=100073549391295",
-			emailId: "mandeep.patwa.met21@itbhu.ac.in",
-		},
+	const core = [
+		
 	];
 	return (
 		<>
@@ -175,9 +77,9 @@ const Teams = () => {
 							imgUrl={member.imgUrl}
 							name={member.name}
 							designation={member.designation}
-							instagramLink={member.instagramLink}
-							facebookLink={member.facebookLink}
-							/>
+							linkedinLink={member.linkedinLink}
+							emailId={member.emailId}
+						/>
 					);
 				})}
 			</div>
@@ -190,13 +92,13 @@ const Teams = () => {
 							imgUrl={member.imgUrl}
 							name={member.name}
 							designation={member.designation}
-							instagramLink={member.instagramLink}
-							facebookLink={member.facebookLink}
-							/>
+							linkedinLink={member.linkedinLink}
+							emailId={member.emailId}
+						/>
 					);
 				})}
 			</div>
-			<div className="flex flex-wrap gap-5 my-5 justify-center">
+			{/* <div className="flex flex-wrap gap-5 my-5 justify-center">
 				{core.map((member, i) => {
 					return (
 						<Card
@@ -206,11 +108,10 @@ const Teams = () => {
 							name={member.name}
 							designation={member.designation}
 							instagramLink={member.instagramLink}
-							facebookLink={member.facebookLink}
-							/>
+						/>
 					);
 				})}
-			</div>
+			</div> */}
 			<Footer />
 		</>
 	);

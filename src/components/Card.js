@@ -4,14 +4,17 @@ import instagram from "../assets/instagram.svg";
 import linkedIn from "../assets/linkedIn.svg";
 import mail from "../assets/mail.svg";
 import { Link } from "react-router-dom";
+import { useSnackbar } from 'react-simple-snackbar';
+
+const emailTo = (text) => {
+	window.location = `mailto:${text}`;
+}
 
 export default function Card({
 	imgUrl,
 	name,
 	designation,
 	linkedinLink,
-	instagramLink,
-	facebookLink,
 	emailId,
 }) {
 	return (
@@ -36,11 +39,12 @@ export default function Card({
 					<Link to={linkedinLink}>
 						<img src={linkedIn} alt="" />
 					</Link>
-					<Link to={emailId}>
+					<button onClick={()=>emailTo(emailId)}>
 						<img src={mail} alt="" />
-					</Link>
+					</button>
 				</div>
 			</div>
+
 		</div>
 	);
 }
