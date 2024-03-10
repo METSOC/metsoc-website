@@ -3,9 +3,6 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import robo1 from "../assets/robo1.png";
 import event1 from "../assets/event1.png";
-import event2 from "../assets/event2.png";
-import event3 from "../assets/event3.png";
-import event4 from "../assets/event4.png";
 
 const Events = () => {
   return (
@@ -60,9 +57,6 @@ const Events = () => {
             </div>
 
           </div>
-
-
-
           {/* Heading 2 */}
           <p className="text-[40px] lg:text-[65px] pb-8 lg:text-left text-center font-[500]">
             PAST EVENTS
@@ -70,8 +64,8 @@ const Events = () => {
 
           {/* First Row */}
           <div className="rounded-xl p-10 btn flex flex-col lg:flex-row font-[400]">
-            <div className="lg:w-1/2 mx-auto">
-              <img src={event2} alt="teachers-day" className="w-full h-auto" />
+            <div className="lg:w-1/2 mx-auto rounded-xl">
+              <img src={"https://drive.google.com/thumbnail?id=1wn0zfoL4dizB7vXjYoZRZ1rf3cG1t335&sz=w1000"} alt="teachers-day" className="w-full h-auto" />
             </div>
             <div className="py-6 lg:py-0 md:mx-24 lg:w-1/2 text-[20px] md:text-[30px] lg:text-[35px] text-center space-y-4 lg:my-auto mx-auto">
               <div className="text-white font-bold" >
@@ -97,14 +91,14 @@ const Events = () => {
               </div>
             </div>
             <div className="order-1 lg:order-2 lg:w-1/2 mx-auto">
-              <img src={event4} alt="nabarun" className="w-full h-auto" />
+              <img src={"https://drive.google.com/thumbnail?id=1H8bEMbzETygxMpIh5I0XzOuoAjauW44M&sz=w1000"} alt="nabarun" className="w-full h-auto" />
             </div>
           </div>
 
           {/* Third Row */}
           <div className="rounded-xl p-10 btn flex flex-col lg:flex-row font-[400]">
             <div className="lg:w-1/2 mx-auto">
-              <img src={event3} alt="teachers-day" className="w-full h-auto" />
+              <img src={"https://drive.google.com/thumbnail?id=1drrPv0L2ewluwqu7HTTfPfvmhp-qXCKM&sz=w1000"} alt="teachers-day" className="w-full h-auto" />
             </div>
             <div className="py-6 lg:py-0 md:mx-24 lg:w-1/2 text-[20px] md:text-[30px] lg:text-[35px] text-center space-y-4 lg:my-auto mx-auto">
               <div className="text-white font-bold">
