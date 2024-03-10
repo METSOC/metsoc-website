@@ -4,7 +4,6 @@ import instagram from "../assets/instagram.svg";
 import linkedIn from "../assets/linkedIn.svg";
 import mail from "../assets/mail.svg";
 import { Link } from "react-router-dom";
-import { useSnackbar } from 'react-simple-snackbar';
 
 const emailTo = (text) => {
 	window.location = `mailto:${text}`;
